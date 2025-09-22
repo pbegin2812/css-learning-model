@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Learning CSS</title>
+		<style>
+			body {
+				background-color: #f4d04e;
+				font-family: Arial, sans-serif;
+				margin: 20px;
+			}
+
+			.content {
+				max-width: 600px;
+				margin: auto;
+				border: 3px solid #000000;
+				border-radius: 10px;
+				padding: 20px;
+				background-color: white;
+				box-shadow: 15px 15px 15px #000000;
+			}
+
+			.imageblog {
+				width: 100%;
+			}
+
+			.Learning {
+				background-color: #f4d04e;
+				padding: 20px;
+				border-radius: 10px;
+				width: 17%;
+			}
+
+			.Published {
+				font-weight: lighter;
+			}
+
+			h1 {
+				font-weight: bold;
+			}
+
+			.description {
+				font-size: large;
+				color: Grey;
+			}
+
+			.USerGregHopper {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				gap: 9px;
+			}
+
+            .greghooper {
+                font-weight: bold;
+            }
+		</style>
+	</head>
+	<body>
+		<div class="content">
+			<img src="blogimage.png" alt="blogimag" class="imageblog" />
+			<h2 class="Learning">Learning</h2>
+			<h2 class="Published">Published 21 Dec 2023</h2>
+			<h1>HTML & CSS foundations</h1>
+			<p class="description">
+				These languages are the backbone of every website, defining structure,
+				content, and presentation.
+			</p>
+			<div class="USerGregHopper">
+				<img src="userpic.png" alt="userpic: Greg Hooper" />
+				<p class="greghooper">Greg Hooper</p>
+			</div>
+		</div>
+	</body>
+</html>
